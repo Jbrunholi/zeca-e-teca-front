@@ -1,0 +1,7 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4" *ngFor="let photo of photos">
+      <img [src]="photo.url" class="img-fluid" alt="{{photo.description}}">
+    </div>
+  </div>
+</div>
